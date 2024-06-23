@@ -8,7 +8,7 @@ public abstract class MovieType {
 	public MovieType() {
 		super();
 	}
-
+	
 	public abstract int getTypeCode();
 
 	public abstract double getCharge(Rental rental);
